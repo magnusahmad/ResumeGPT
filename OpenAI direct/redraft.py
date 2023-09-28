@@ -18,7 +18,7 @@ Sincerely,
 
 Magnus Ahmad"""
 
-openai.api_key = "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" 
+openai.api_key = "" 
 
 def get_job_ad_text(url):
     page = requests.get(url)
