@@ -36,7 +36,8 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # def handle_private_chat(message):
 #   print('first handler')
 
-
+# TODO: Add initial message with instructions
+# TODO: if message = '/cover letter'... if message = '/cv' Start relevant message_handler function
 @bot.message_handler(content_types=["document"])
 def handle_doc(message):
     try:

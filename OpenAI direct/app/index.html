@@ -1,0 +1,44 @@
+<!-- index.html -->
+<head>
+    <link href="output.css" rel="stylesheet"> 
+  </head>
+<header class="bg-indigo-500 text-white py-4">
+    <h1 class="text-3xl font-bold text-center">Cover Letter Creator</h1>
+  </header>
+  
+  <main class="max-w-lg mx-auto my-8 px-6">
+  
+    <section id="signup" class="text-center">
+      <h2 class="text-2xl font-medium mb-4">Sign Up to Get Started</h2>  
+      <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Sign up with Google
+      </button>
+    </section>
+  
+    <section id="url-input" class="mt-8">
+      <label for="url" class="font-medium">Enter job url:</label>
+      <input id="url" type="text" class="border p-2 w-full" />
+      <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 mt-4">
+        Submit
+      </button>
+    </section>  
+  
+    <section id="file-upload" class="mt-8">
+      <label class="font-medium">Upload your CV:</label>
+      <div class="mt-2 bg-grey-200 p-4">
+        <input type="file" class="hidden" />
+        <p class="text-lg text-gray-400 italic">PDF only, max 5mb</p>
+      </div>
+      <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 mt-4">
+        Upload CV
+      </button>
+    </section>
+  
+    <section id="cover-letter" class="mt-8">
+      <h2 class="text-2xl font-medium">Generated Cover Letter</h2>
+      <div class="bg-white rounded shadow p-4 mt-4">
+        <p>Lorem ipsum dolor sit amet...</p> 
+      </div>
+    </section>
+    
+  </main>
